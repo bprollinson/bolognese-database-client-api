@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  database_client_api:
+    container_name: database_client_api
+    hostname: database_client_api
+    build: .
+    volumes:
+      - .:/root
